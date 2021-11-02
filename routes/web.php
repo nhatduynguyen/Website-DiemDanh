@@ -11,7 +11,7 @@
 |
 */
 
-route::get('/slide', 'IndexController@slidetest')->name('client.category');
+Route::get('/slide', 'IndexController@slidetest')->name('client.category');
 Route::get('/', 'IndexController@index')->name('client.home');
 Route::get('/tkb', 'diemdanhController@diemdanh1')->name('client.demoSchedule');
 Route::get('/tkb/get', 'diemdanhController@getdiemdanh1');// Get parse value TKB
